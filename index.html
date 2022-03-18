@@ -3,6 +3,10 @@
     <head>
         <title>Pondering me orb</title>
         <link rel="stylesheet" href="style.css"/>
+        <script>
+            //reload the page every 6 hours, for some reason the gcpdot xhr fails if running for too long
+            setTimeout(()=>{ window.location.reload(); },1000*60*60*6);
+        </script>
     </head>
     <body>
         <!-- <blink>AYYY LMAO</blink> -->
