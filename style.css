@@ -103,8 +103,7 @@ body {
 
 #flare_wrap {
     position: absolute;
-    left: 76.41%;
-    top: 25.52%;
+    transform: translate(546px, -71px);
     width: 82px;
     height: 372px;
 }
