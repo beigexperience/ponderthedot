@@ -42,6 +42,10 @@ body {
     min-height: 100vh;
 }
 
+body *{
+    user-select: none;
+}
+
 #orb {
     min-width: 1244px;
     min-height: 750px;
